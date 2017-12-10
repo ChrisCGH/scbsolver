@@ -1,0 +1,29 @@
+monorest:
+    data_files:
+        - name: english.tri
+          type: trigram
+          path: english.tri
+        - name: english.tet
+          type: tetragram
+          path: english.tet
+        - name: wp.3
+          type: trigram
+          path: wp.3
+        - name: wp.3.spaces
+          type: trigram
+          path: wp.3.spaces
+        - name: wp.4
+          type: tetragram
+          path: wp.4
+        - name: wp.4.spaces
+          type: tetragram
+          path: wp.4.spaces
+        - name: wp.5.spaces
+          type: ngraph
+          path: wp.5.spaces
+        - name: wp.6.spaces
+          type: ngraph
+          path: wp.6.spaces
+        - name: wp7
+          type: ngraph
+          path: wp7
